@@ -15,8 +15,16 @@ Existing solutions in place attempt to control when and where people fish in Pug
 Organizations like the World Wide Fund for Nature attempt to lobby and negotiate with larger fish producers and distributors to affect change on a commercial level, which is critical for fish population safety (Kuruc, 2022). However, these efforts often don’t have trickle-down effects on recreational fishing. 
 
 ## Citations
+
 - How to use these eRegulations - washington fishing. eRegulations. (n.d.). Retrieved April 6, 2022, from https://www.eregulations.com/washington/fishing/how-to-use-these-e-regulations
 - Kuruc, M. (n.d.). What is overfishing? facts, effects and overfishing solutions. WWF. Retrieved April 6, 2022, from https://www.worldwildlife.org/threats/overfishing#:~:text=It%20can%20change%20the%20size,like%20sea%20 turtles%20and%20 corals.
 - Mapes, L. (2019, February 26). Decline of salmon adds to the struggle of Puget Sound's Orcas. Saving Seafood. Retrieved April 6, 2022, from https://www.savingseafood.org/news/conservation-environment/decline-of-salmon-adds-to-the-struggle-of-puget-sounds-orcas/
 - Puget Sound Partnership. (n.d.). Thriving species and food web. stateofthesoundwagov. Retrieved April 6, 2022, from https://stateofthesound.wa.gov/thriving-species-and-food-web/
 
+## Solution 
+
+This web application will provide recreational fishermen with accurate recommendations of which regions are best for abundant and sustainable fishing. 
+
+## Site Layout 
+
+Our site will have five pages: a home page, a map of marine area/species information (stretch goal), an explore page where users can find information about marine areas/species, a page where users can get involved in supporting sustainable fishing, and a page about the problem and our mission.  
