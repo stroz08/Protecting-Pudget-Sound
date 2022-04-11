@@ -29,13 +29,19 @@ This web application will provide recreational fishermen with accurate recommend
 
 Our site will have five pages: a home page, a map of marine area/species information (stretch goal), an explore page where users can find information about marine areas/species, a page where users can get involved in supporting sustainable fishing, and a page about the problem and our mission.
 
-### Design 
+## Design 
 
-#### Home 
+### Home 
 
 <img src="img/home.png" alt="Home Page" height="350">
 
 The home page prompts the user to select the species they are curious about from a drop down menu. Users complete this search by pressing the ‘Search’ button. They will be redirected to the ‘Map’ page, which returns a density map showing where in the Puget Sound the specific species is most frequently found. The home page can be accessed at any point by clicking on the logo or title in the top left corner of the page. Users can also interact with the navigation bar at any point on this page. 
+
+### Map (Stretch Goal) 
+
+<img src="img/map.png" alt="Initial Map Page" height="350">
+
+The ‘Map’ page displays a density map of the Puget Sound waters depending on the species that was selected by the user. This page can be accessed by either completing the search on the home page or clicking on the respective button in the navigation bar. When entering from a search on the home page, users will automatically see the map for the specific species they searched. If the user is to enter this page through the navigation bar, the map will show a default state until the user searches for a species. A search can be completed in the search bar above the top right corner of the map. The search bar will generate a drop down menu similar to the one on the home page. If a user attempts to drag the map to a different area outside of the Puget Sound, the map will not render as we are only focusing on the Puget Sound area. Users can also interact with the navigation bar at any point on this page. This page is a stretch goal. 
 
 
 
