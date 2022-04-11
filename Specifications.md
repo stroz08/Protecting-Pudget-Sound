@@ -33,4 +33,9 @@ Our site will have five pages: a home page, a map of marine area/species informa
 
 #### Home 
 
-<img src="img/home.png" alt="Home Page" height="200">
+<img src="img/home.png" alt="Home Page" height="350">
+
+The home page prompts the user to select the species they are curious about from a drop down menu. Users complete this search by pressing the ‘Search’ button. They will be redirected to the ‘Map’ page, which returns a density map showing where in the Puget Sound the specific species is most frequently found. The home page can be accessed at any point by clicking on the logo or title in the top left corner of the page. Users can also interact with the navigation bar at any point on this page. 
+
+
+
