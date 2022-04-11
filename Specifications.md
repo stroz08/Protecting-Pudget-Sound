@@ -61,3 +61,13 @@ This page displays each marine area in the Puget Sound. This page is scrollable 
 
 This page displays the specific information for the marine area the user selected. A photo of the area’s location within the Puget Sound will be shown next to the written information about the area. This may be a scrollable page depending on the amount of information we include. Users can also interact with the navigation bar at any point on this page. 
 
+<img src="img/explore-species.PNG" alt="Explore Species Page" height="350">
+
+This page displays common species found in the Puget Sound. This page is scrollable and will feature a card for each species we decide to feature. Each card is clickable and will redirect the user to a new page. A filter will be available at the top right corner above the cards where users can filter the cards by A-Z (default state), marine area, or at-risk species. Users can select and apply a filter by clicking the icon and confirming their selection. To remove the filter, they would click the same icon, deselect their choice, and confirm. This subpage can also be accessed by hovering over the ‘Explore’ button in the navigation bar. Users can also interact with the navigation bar at any point on this page. 
+
+<img src="img/explore-speciesinfo.PNG" alt="Explore Species Information Page" height="350">
+
+This page displays the specific information for the species the user selected. A photo of the species will be shown next to the written information about it. This may be a scrollable page depending on the amount of information we include. Users can also interact with the navigation bar at any point on this page. 
+
+
+### Get Involved 
