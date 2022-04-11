@@ -27,4 +27,10 @@ This web application will provide recreational fishermen with accurate recommend
 
 ## Site Layout 
 
-Our site will have five pages: a home page, a map of marine area/species information (stretch goal), an explore page where users can find information about marine areas/species, a page where users can get involved in supporting sustainable fishing, and a page about the problem and our mission.  
+Our site will have five pages: a home page, a map of marine area/species information (stretch goal), an explore page where users can find information about marine areas/species, a page where users can get involved in supporting sustainable fishing, and a page about the problem and our mission.
+
+### Design 
+
+#### Home 
+
+<img src="img/home.png" alt="Home Page" height="200">
