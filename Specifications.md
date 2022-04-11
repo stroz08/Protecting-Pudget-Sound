@@ -50,6 +50,14 @@ The map is clickable and will provide users with the name of the marine area the
 ### Explore 
 
 <img src="img/explore.PNG" alt="Explore Page" height="350">
+
 The ‘Explore’ page will show the two categories users can further explore, ‘Marine Areas’ and ‘Species’. Users will interact with this page by clicking on either of the categories, which will redirect them to the corresponding subpage. Users can also interact with the navigation bar at any point on this page. 
 
+<img src="img/explore-marine.PNG" alt="Explore Marine Page" height="350">
+
+This page displays each marine area in the Puget Sound. This page is scrollable and will feature a card for every marine area. Each card is clickable and will redirect the user to a new page. This subpage can also be accessed by hovering over the ‘Explore’ button in the navigation bar. Users can also interact with the navigation bar at any point on this page. 
+
+<img src="img/explore-marineinfo.PNG" alt="Explore Marine Information Page" height="350">
+
+This page displays the specific information for the marine area the user selected. A photo of the area’s location within the Puget Sound will be shown next to the written information about the area. This may be a scrollable page depending on the amount of information we include. Users can also interact with the navigation bar at any point on this page. 
 
