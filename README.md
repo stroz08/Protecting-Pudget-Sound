@@ -9,7 +9,7 @@ Promote sustainable fishing practices in the Puget Sound area.
 
 ## **Problem Statement**
 
-**Statement:** Puget Sound populations have long been in decline or at best hovering at dangerous levels. One of the factors that adversely affect these fish populations is recreational fishers overfishing some of the most vulnerable regions and species of fish. 
+**Statement:** Puget Sound marine populations have long been in decline or at best hovering at dangerous levels. One of the factors that adversely affects these fish/crustacean populations is the overfishing of vulnerable species by recreational fishers. 
 
 **Problem Description:**
 In 2010, the Puget Sound Partnership created a set of initiatives and metrics to monitor the health of Puget Sound, many of which related to Fish populations. In 2021, the agency reported that metrics related to fish health were either short of the 10-year goals or even trending in the reverse direction (PSP, 2021). 
