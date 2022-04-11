@@ -43,5 +43,13 @@ The home page prompts the user to select the species they are curious about from
 
 The ‘Map’ page displays a density map of the Puget Sound waters depending on the species that was selected by the user. This page can be accessed by either completing the search on the home page or clicking on the respective button in the navigation bar. When entering from a search on the home page, users will automatically see the map for the specific species they searched. If the user is to enter this page through the navigation bar, the map will show a default state until the user searches for a species. A search can be completed in the search bar above the top right corner of the map. The search bar will generate a drop down menu similar to the one on the home page. If a user attempts to drag the map to a different area outside of the Puget Sound, the map will not render as we are only focusing on the Puget Sound area. Users can also interact with the navigation bar at any point on this page. This page is a stretch goal. 
 
+<img src="img/map-details.png" alt="Detailed Map Page" height="350">
+
+The map is clickable and will provide users with the name of the marine area they select through a pop-up. There will also be a hyperlink within the pop-up, titled ‘Learn More’, prompting users to read more about the marine area. If this link is clicked, users will be redirected to the page displaying information about the selected marine layer. To exit the pop-up, users can click anywhere on the map. Clicking on another area in the Puget Sound will prompt a new pop-up for the marine area, while clicking on the land will close the pop-up entirely. Users can also interact with the navigation bar at any point on this page. This page is a stretch goal. 
+
+### Explore 
+
+<img src="img/explore.png" alt="Explore Page" height="350">
+The ‘Explore’ page will show the two categories users can further explore, ‘Marine Areas’ and ‘Species’. Users will interact with this page by clicking on either of the categories, which will redirect them to the corresponding subpage. Users can also interact with the navigation bar at any point on this page. 
 
 
