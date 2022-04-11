@@ -81,4 +81,5 @@ The ‘Get Involved’ page will show the two categories users can further explo
 This page displays petitions relating to fishing and sustainability in the Puget Sound area. This page is scrollable and will feature a card for each petition we decide to feature. Each card is clickable and will redirect the user to a new page. This subpage can also be accessed by hovering over the ‘Get Involved’ button in the navigation bar. Users can also interact with the navigation bar at any point on this page. 
 
 <img src="img/getinvolved-donateinfo (1).PNG" alt="Get Involved Page" height="350">
+
 This page displays the specific information for the petition the user selected. Some sort of related photo (the organization’s logo or team, a stock photo related to the petition, etc.) will be shown next to the written information about it. This may be a scrollable page depending on the amount of information we include. Users can click the ‘Sign Petition’ button which will redirect them to the petition link. Users can also interact with the navigation bar at any point on this page. 
