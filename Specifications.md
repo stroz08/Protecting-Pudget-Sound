@@ -49,7 +49,7 @@ The map is clickable and will provide users with the name of the marine area the
 
 ### Explore 
 
-<img src="img/explore.png" alt="Explore Page" height="350">
+<img src="img/explore.PNG" alt="Explore Page" height="350">
 The ‘Explore’ page will show the two categories users can further explore, ‘Marine Areas’ and ‘Species’. Users will interact with this page by clicking on either of the categories, which will redirect them to the corresponding subpage. Users can also interact with the navigation bar at any point on this page. 
 
 
