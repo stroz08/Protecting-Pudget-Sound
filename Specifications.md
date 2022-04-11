@@ -88,7 +88,7 @@ This page displays the specific information for the petition the user selected. 
 
 This page displays the specific information for the petition the user selected. Some sort of related photo (the organization’s logo or team, a stock photo related to the petition, etc.) will be shown next to the written information about it. This may be a scrollable page depending on the amount of information we include. Users can click the ‘Sign Petition’ button which will redirect them to the petition link. Users can also interact with the navigation bar at any point on this page. 
 
-<img src="img/getinvolved-donate.PNG" alt="Donation Page" height="350">
+<img src="img/getinvolved-donate (1).PNG" alt="Donation Page" height="350">
 
 This page displays donation funds relating to fishing and sustainability in the Puget Sound area. This page is scrollable and will feature a card for each fund we decide to feature. Each card is clickable and will redirect the user to a new page. This subpage can also be accessed by hovering over the ‘Get Involved’ button in the navigation bar. Users can also interact with the navigation bar at any point on this page. 
 
