@@ -1,3 +1,5 @@
+### Requirements
+
 #### General 
 
 1. Every page in our website will have a fixed navigation bar at the top showing our logo/ site title on the left and links to the other pages on the right: Map, Explore, Get Involved (stretch goal), About Us. 
@@ -36,3 +38,14 @@
     1. Pop up tooltip does not work in map’s default state, when clicking on land, or when clicking on water outside of the Puget Sound area. Tooltip is only available for marine areas. 
 2. Clicking on the “Learn More” button for any specific marine area will direct the user to that specific marine areas page (2.1.1)
 3. Directions for how to use the map will be displayed below the map.
+
+##### 2: Explore Page
+
+1. The page has two cards for ‘Marine Areas’ and ‘Species’ next to each other that take up most of the screen.
+2. When the user arrives at the ‘Explore’ page, neither card is selected. 
+3. Both cards are selectable and display a related image.
+4. When the user hovers over the ‘Marine Areas’ card, a slightly transparent overlay will appear over the image and the title will be shown.
+5. When the user clicks on the ‘Marine Areas’ card, they will be redirected to the Marine Area page. (2.1)
+6. When the user hovers over the ‘Species’ card, a slightly transparent overlay will appear over the image and the title will be shown. 
+7. When the user clicks on the ‘Species’ card, they will be redirected to the Species page. (2.2) 
+
