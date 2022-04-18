@@ -35,7 +35,10 @@
 #### 1.2: Home Page with Pop-up
 
 1. Clicking on an area on the map displays a pop up tooltip which describes the marine area as well as a “Learn More” button.
-    1. Pop up tooltip does not work in map’s default state, when clicking on land, or when clicking on water outside of the Puget Sound area. Tooltip is only available for marine areas. 
+    1. Tooltip is only available for marine areas. 
+    2. Pop up tooltip does not work in map’s default state.
+    3. Pop up tooltip does not work when clicking on land. 
+    4. Pop up tooltip does not work when clicking on water outside of the Puget Sound area. 
 2. Clicking on the “Learn More” button for any specific marine area will direct the user to that specific marine areas page (2.1.1)
 3. Directions for how to use the map will be displayed below the map.
 
@@ -96,7 +99,7 @@
 6. When the user hovers over the ‘Donate’ card, a slightly transparent overlay will appear over the image and the title will be shown. 
 7. When the user clicks on the ‘Donate’ card, they will be redirected to the Donate page. (3.2)
 
-#### 3.1: Petition Page (Stretch Goal)
+#### 3.1: Petition Page (*Stretch Goal*)
 
 1. This page will have a title in the top left corner below the navigation bar saying ‘Petitions’.
 2. The page will feature different petitions as cards.
@@ -126,7 +129,7 @@
 6. When the user clicks on a given donation card, they will be redirected to the respective donation information page. (3.2.1)
 7. Page must be accessible by hovering over the ‘Get Involved’ button on the navigation bar, as well as by clicking the ‘Donate’ card on the ‘Get Involved’ page.
 
-#### 3.2.1: Donation Information Page (Stretch Goal)
+#### 3.2.1: Donation Information Page (*Stretch Goal*)
 
 1. The page will display the title of the donation fund.
 2. Under the title there will be a block of text on the left side of the page with information about the donation fund and the organization.
@@ -144,4 +147,3 @@
 4. Below the block of text another center-aligned subtitle saying ‘Why?’ will be shown.
 5. A block of text framing our problem and its importance will be displayed. 
 6. The user will be able to scroll through the page to view all the information. 
-
