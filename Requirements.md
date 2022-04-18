@@ -78,3 +78,22 @@
     1. When clicked, only at-risk species will appear with a warning mark in the top right corner of the card.
 14. Page must be accessible by hovering over the ‘Explore’ button on the navigation bar, as well as by clicking the ‘Species’ card on the ‘Explore’ page.
 
+#### 2.2.1: Species Info Page
+
+1. Name of the species will be at the top left of the page. 
+2. Display a static image of the species on the right side next to the name and description of the fish.
+3. Page will offer fixed information about the specified species below the name to the left of the image.
+4. Page will be scrollable to encompass further information.
+5. Information such as name, description, and image will not be clickable.
+
+#### 3: Get Involved Page (*Stretch Goal*)
+
+1. The page has two cards for ‘Petitions’ and ‘Donate’ next to each other that take up most of the screen.
+2. When the user arrives at the ‘Get Involved’ page, neither card is selected. 
+3. Both cards are selectable and display a related image.
+4. When the user hovers over the ‘Petitions’ card, a slightly transparent overlay will appear over the image and the title will be shown.
+5. When the user clicks on the ‘Petitions’ card, they will be redirected to the Petitions page. (3.1) 
+6. When the user hovers over the ‘Donate’ card, a slightly transparent overlay will appear over the image and the title will be shown. 
+7. When the user clicks on the ‘Donate’ card, they will be redirected to the Donate page. (3.2)
+
+
