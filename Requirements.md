@@ -96,4 +96,52 @@
 6. When the user hovers over the ‘Donate’ card, a slightly transparent overlay will appear over the image and the title will be shown. 
 7. When the user clicks on the ‘Donate’ card, they will be redirected to the Donate page. (3.2)
 
+#### 3.1: Petition Page (Stretch Goal)
+
+1. This page will have a title in the top left corner below the navigation bar saying ‘Petitions’.
+2. The page will feature different petitions as cards.
+3. The name of each petition will be displayed within the respective card. 
+4. The user will be able to scroll through the page to view petition cards. 
+5. When the user hovers over the card, the petition name will become bold and underlined. 
+6. When the user clicks on a given petition card, they will be redirected to the respective petition information page. (3.1.1)
+7. Page must be accessible by hovering over the ‘Get Involved’ button on the navigation bar, as well as by clicking the ‘Petitions’ card on the ‘Get Involved’ page.
+
+#### 3.1.1: Petition Information Page (*Stretch Goal*)
+
+1. The page will display the title of the petition.
+2. Under the title there will be a block of text on the left side of the page with information about the petition and the organization.
+3. A photo of the hosting organization or a related image will be displayed to the right of the block of text.
+4. Under the image there will be an outlined button that says ‘Sign Petition’.
+5. When the user hovers over the button, the button will fill with color and the text will become bold. 
+6. When the user clicks the button, they will be redirected to the respective petition link.
+7. Information such as name, description, and image will not be clickable.
+
+#### 3.2: Donate Page (*Stretch Goal*)
+
+1. This page will have a title in the top left corner below the navigation bar saying ‘Donate’.
+2. This page will feature different donation funds as cards.
+3. The name of each donation will be displayed within the respective card. 
+4. The user will be able to scroll through the page to view donation cards.
+5. When the user hovers over the card, the donation name will become bold and underlined. 
+6. When the user clicks on a given donation card, they will be redirected to the respective donation information page. (3.2.1)
+7. Page must be accessible by hovering over the ‘Get Involved’ button on the navigation bar, as well as by clicking the ‘Donate’ card on the ‘Get Involved’ page.
+
+#### 3.2.1: Donation Information Page (Stretch Goal)
+
+1. The page will display the title of the donation fund.
+2. Under the title there will be a block of text on the left side of the page with information about the donation fund and the organization.
+3. A photo of the hosting organization or a related image will be displayed to the right of the block of text.
+4. Under the image there will be an outlined button that says ‘Donate’.
+5. When the user hovers over the button, the button will fill with color and the text will become bold. 
+6. When the user clicks the button, they will be redirected to the respective donation link.
+7. Information such as name, description, and image will not be clickable.
+
+#### 4: About Page
+
+1. This page will have a title in the top left corner below the navigation bar saying ‘About Us’.
+2. Below the title is a center-aligned subtitle showing ‘Our Mission’.
+3. A block of text with our mission statement will be displayed.
+4. Below the block of text another center-aligned subtitle saying ‘Why?’ will be shown.
+5. A block of text framing our problem and its importance will be displayed. 
+6. The user will be able to scroll through the page to view all the information. 
 
