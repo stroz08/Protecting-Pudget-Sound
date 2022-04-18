@@ -33,6 +33,6 @@
 #### 1.2: Home Page with Pop-up
 
 1. Clicking on an area on the map displays a pop up tooltip which describes the marine area as well as a “Learn More” button.
-  1. Pop up tooltip does not work in map’s default state, when clicking on land, or when clicking on water outside of the Puget Sound area. Tooltip is only available for marine areas. 
+    1. Pop up tooltip does not work in map’s default state, when clicking on land, or when clicking on water outside of the Puget Sound area. Tooltip is only available for marine areas. 
 2. Clicking on the “Learn More” button for any specific marine area will direct the user to that specific marine areas page (2.1.1)
 3. Directions for how to use the map will be displayed below the map.
