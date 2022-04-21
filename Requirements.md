@@ -35,22 +35,20 @@
 #### 1.2: Home Page with Pop-up
 
 1. Clicking on an area on the map displays a pop up tooltip which describes the marine area as well as a “Learn More” button.
-    1. Tooltip is only available for marine areas. 
-    2. Pop up tooltip does not work in map’s default state.
-    3. Pop up tooltip does not work when clicking on land. 
-    4. Pop up tooltip does not work when clicking on water outside of the Puget Sound area. 
+    1. Pop up tooltip does not work in map’s default state.
+    2. Pop up tooltip does not work when clicking on land. 
+    3. Pop up tooltip does not work when clicking on water outside of the Puget Sound marine areas. 
 2. Clicking on the “Learn More” button for any specific marine area will direct the user to that specific marine areas page (2.1.1)
 3. Directions for how to use the map will be displayed below the map.
 
 #### 2: Explore Page
 
 1. The page has two cards for ‘Marine Areas’ and ‘Species’ next to each other that take up most of the screen.
-2. When the user arrives at the ‘Explore’ page, neither card is selected. 
-3. Both cards are selectable and display a related image.
-4. When the user hovers over the ‘Marine Areas’ card, a slightly transparent overlay will appear over the image and the title will be shown.
-5. When the user clicks on the ‘Marine Areas’ card, they will be redirected to the Marine Area page. (2.1)
-6. When the user hovers over the ‘Species’ card, a slightly transparent overlay will appear over the image and the title will be shown. 
-7. When the user clicks on the ‘Species’ card, they will be redirected to the Species page. (2.2) 
+2. Both cards display a related image and are clickable.
+3. When the user hovers over the ‘Marine Areas’ card, a slightly transparent overlay will appear over the image and the title will be shown.
+4. When the user clicks on the ‘Marine Areas’ card, they will be redirected to the Marine Area page. (2.1)
+5. When the user hovers over the ‘Species’ card, a slightly transparent overlay will appear over the image and the title will be shown. 
+6. When the user clicks on the ‘Species’ card, they will be redirected to the Species page. (2.2) 
 
 #### 2.1.1: Marine Area Info Page
 
