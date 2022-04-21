@@ -13,7 +13,7 @@
 
 #### Non-functional Requirements 
 
-1. All website pages will pass all tests (Normal Text, Large Text, and Graphical Objects and User Interface Components) on WebAIM’s contrast checker to ensure accessibility.
+1. All website pages will pass all tests (Normal Text, Large Text, and Graphical Objects and User Interface Components) on [WebAIM’s contrast checker](https://webaim.org/resources/contrastchecker/) to ensure accessibility.
 2. This website will be usable on browser widths larger than 1300px. 
 
 
