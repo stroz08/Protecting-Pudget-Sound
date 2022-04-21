@@ -13,7 +13,7 @@
 
 #### Non-functional Requirements 
 
-1. All website pages are approved by a web accessibility color contrast tracker. 
+1. All website pages will pass all tests (Normal Text, Large Text, and Graphical Objects and User Interface Components) on WebAIM’s contrast checker to ensure accessibility.
 2. This website will be usable on browser widths larger than 1300px. 
 
 
@@ -44,10 +44,12 @@
 #### 2: Explore Page
 
 1. The page has two cards for ‘Marine Areas’ and ‘Species’ next to each other that take up most of the screen.
-2. Both cards display a related image and are clickable.
+2. Each card displays an image related to the respective category.
 3. When the user hovers over the ‘Marine Areas’ card, a slightly transparent overlay will appear over the image and the title will be shown.
+    1. When hovering over the card, the cursor arrow will change to a hand indicating that the card is clickable.
 4. When the user clicks on the ‘Marine Areas’ card, they will be redirected to the Marine Area page. (2.1)
 5. When the user hovers over the ‘Species’ card, a slightly transparent overlay will appear over the image and the title will be shown. 
+    1. When hovering over the card, the cursor arrow will change to a hand indicating that the card is clickable.
 6. When the user clicks on the ‘Species’ card, they will be redirected to the Species page. (2.2) 
 
 #### 2.1.1: Marine Area Info Page
@@ -90,12 +92,13 @@
 #### 3: Get Involved Page (*Stretch Goal*)
 
 1. The page has two cards for ‘Petitions’ and ‘Donate’ next to each other that take up most of the screen.
-2. When the user arrives at the ‘Get Involved’ page, neither card is selected. 
-3. Both cards are selectable and display a related image.
-4. When the user hovers over the ‘Petitions’ card, a slightly transparent overlay will appear over the image and the title will be shown.
-5. When the user clicks on the ‘Petitions’ card, they will be redirected to the Petitions page. (3.1) 
-6. When the user hovers over the ‘Donate’ card, a slightly transparent overlay will appear over the image and the title will be shown. 
-7. When the user clicks on the ‘Donate’ card, they will be redirected to the Donate page. (3.2)
+2. Each card displays an image related to the respective category.
+3. When the user hovers over the ‘Petitions’ card, a slightly transparent overlay will appear over the image and the title will be shown.
+    1. When hovering over the card, the cursor arrow will change to a hand indicating that the card is clickable.
+4. When the user clicks on the ‘Petitions’ card, they will be redirected to the Petitions page. (3.1) 
+5. When the user hovers over the ‘Donate’ card, a slightly transparent overlay will appear over the image and the title will be shown. 
+    1. When hovering over the card, the cursor arrow will change to a hand indicating that the card is clickable.
+6. When the user clicks on the ‘Donate’ card, they will be redirected to the Donate page. (3.2)
 
 #### 3.1: Petition Page (*Stretch Goal*)
 
@@ -145,3 +148,4 @@
 4. Below the block of text another center-aligned subtitle saying ‘Why?’ will be shown.
 5. A block of text framing our problem and its importance will be displayed. 
 6. The user will be able to scroll through the page to view all the information. 
+7. Personal information about the team, such as name, photo, role, and LinkedIn may be added at the bottom of the page.
