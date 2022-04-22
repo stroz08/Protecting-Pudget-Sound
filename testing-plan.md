@@ -32,7 +32,7 @@ This application has no user authentication, so there is no difference in functi
 2. Select a species from the drop down menu and complete the search. Heat map overlay should be shown on the map. (Page 1.1)
 3. Select an area within the Puget Sound waters. A tooltip should pop up displaying the Marine Area you selected with a hyperlink titled ‘Learn More’. (Page 1.2)
 
-#### Explore Pages
+#### Explore Page
 
 1. Visit the Explore page found in the navigation bar. Expect to see the title of the page on the top left of the page below the navigation bar. Two cards displaying images should be below the title. When hovering over the cards, a slightly transparent overlay should appear along with the title of the card. (Page 2)
 2. Click on the card title ‘Marine Areas’ to take you to the Marine Areas subpage. A title saying ‘Marine Areas’ should appear in the top left of the page below the navigation bar. Below the title expect to see cards representing the different marine areas in the Puget Sound. The name of each area should be displayed in the card, along with an image and its respective number. When hovering over a card, the name should become bold and underlined. (Page 2.1)
@@ -40,7 +40,7 @@ This application has no user authentication, so there is no difference in functi
 4. Go back to the Explore page by clicking the respective button in the navigation bar. Then click on the card title ‘Species’ to take you to the Species subpage. A title saying ‘Species’ should appear in the top left of the page below the navigation bar. Below the title expect to see cards representing a selection of different species in the Puget Sound. The name of each species should be displayed in the card, along with a corresponding image. When hovering over a card, the name should become bold and underlined. (Page 2.2)
 5. Click on a species card to take you to its respective information page. At the top left of the page below the navigation bar, expect to see the species name. Below the name will be a block of text. To the right of the block of text will be an image showing the species. (Page 2.2.1)
 
-#### Get Involved Pages
+#### Get Involved Page
 
 _(Stretch Goal)_
 
