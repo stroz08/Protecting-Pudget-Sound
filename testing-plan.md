@@ -22,7 +22,6 @@
 
 - Who will test?
   - At least three members of our team will complete acceptance testing.
- 
 - When will tests be executed?
   - Tests will be executed at the end of Sprint 2. The manual acceptance tests are written based on the premise that the application will be complete by the time of testing. 
 
