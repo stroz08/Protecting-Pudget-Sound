@@ -4,8 +4,6 @@ Two development sprints:
 - April 26 - May 8
 - May 9 - May 17
 
-(Do we want to do map in sprint 1?)
-
 All changes will be deployed to production as they are completed.
 
 ## Milestones
