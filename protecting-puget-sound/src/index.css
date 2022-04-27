@@ -11,3 +11,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Navigation Bar */
+
+#navbar {
+  display: flex;
+  align-items: center;
+  background: #008457;
+}
+
+#navbar h1 {
+  margin-left: 1vw;
+  font-family: 'Helvetica';
+  float: left;
+  font-size: 26px;
+  color: #34C2DE;
+  text-align: center;
+  text-decoration: none;
+}
+
+#navbar .link-container {
+  margin-left: auto;
+}
+
+.link {
+  margin-right: 3vw;
+  text-decoration: none;
+  text-align: center;
+  font-size: 24px;
+  color: white;
+}
