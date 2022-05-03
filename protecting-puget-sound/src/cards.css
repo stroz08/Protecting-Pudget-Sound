@@ -1,0 +1,59 @@
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+body{
+  font-family: 'Courier New', Courier, monospace;
+  margin: 2rem;
+}
+
+.wrapper{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 16rem));
+  gap: 2rem;
+  justify-content: center;
+}
+
+.card:hover{
+  transform: scale(1.1);
+}
+
+.card {
+  overflow: hidden;
+  box-shadow:0 2px 20px cornsilk;
+  border-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.card_img{
+    height: 12rem;
+    width: 100%;
+    object-fit:contain;
+}
+
+.card_title{
+  padding: 1rem;
+}
+
+.card_desc{
+  padding: 0 1rem;
+}
+
+.card_button{
+  padding: 1rem;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-size: 1rem;
+  margin: 1rem;
+  border: 2px solid black;
+  border-radius: 2rem;
+}
+
