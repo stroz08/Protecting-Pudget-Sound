@@ -1,24 +1,26 @@
-*,
-*::before,
-*::after{
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+
+.card_container {
+  width: 300px;
+  overflow: hidden;
+  box-shadow: 0px 0px 15px 5px;
+  transition: 0.3s;
+  animation: ease-in-out;
 }
 
-
-
-
-.wrapper{
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(12rem, 16rem));
-  gap: 2rem;
-  justify-content: center;
-}
-
-.card:hover{
+.card_container:hover{
   transform: scale(1.1);
 }
+
+.card
+
+.card_cont {
+  margin: 1rem;
+  margin-top: 0.5rem;
+}
+
+
+/* Card boxe
+
 
 .card {
   overflow: hidden;
@@ -37,14 +39,13 @@
 }
 
 .card_title{
-  padding: 1rem;
+  margin-bottom: .5rem;
 }
 
-.card_desc{
-  padding: 0 1rem;
-}
 
 .card_button{
+  display: flex;
+  justify-content:center;
   padding: 1rem;
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
@@ -53,4 +54,6 @@
   border: 2px solid black;
   border-radius: 2rem;
 }
+
+*/
 
