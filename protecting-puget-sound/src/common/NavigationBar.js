@@ -1,6 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
+
 function NavBar() {
     return (
         <div id='navbar'>
@@ -10,6 +11,7 @@ function NavBar() {
                 <NavLink className='link' to='/explore' activeclassname='activeLink'>Explore</NavLink>
                 <NavLink className='link' to='/getinvolved' activeclassname='activeLink'>Get Involved</NavLink>
                 <NavLink className='link' to='/about' activeclassname='activeLink'>About Us</NavLink>
+                <NavLink className='link' to='/marine_areas' activeclassname='activeLink'>Marine Areas</NavLink>
             </div>
         </div>  
     );

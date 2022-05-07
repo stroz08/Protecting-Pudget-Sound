@@ -15,3 +15,5 @@ function Cards(props) {
   )
 
 }
+
+export {Cards}
