@@ -14,10 +14,11 @@ function MarineAreasPage () {
         <Cards/>
         <Cards/>
 
-
-
-
       </div>
+
+      <footer>
+        
+      </footer>
     </div>
 
   )

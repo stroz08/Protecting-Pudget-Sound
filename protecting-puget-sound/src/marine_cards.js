@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 function Cards(props) {
   return (
@@ -8,7 +9,9 @@ function Cards(props) {
             <div className = 'card_title'>              
               <h1>Marine Areas</h1>
         </div>
-        <button className='card_button'>View Marine Area</button>
+        </div>
+        <div className='button'>
+        <Link className='fish' to='./Marine_Details' activeclassname='activeLink'>Checkout Marine Area</Link>
       </div>
     </div>
 
