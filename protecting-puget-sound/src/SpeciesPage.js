@@ -28,7 +28,6 @@ function SpeciesPage() {
         <Cards/>
         </div>
       </div>
-    );
-}
-
-export { SpeciesPage };
+    )
+  }
+export { SpeciesPage }
