@@ -91,3 +91,13 @@ code {
   border-radius: 2rem;
 }
 
+.team_member {
+  overflow: hidden;
+  border-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
