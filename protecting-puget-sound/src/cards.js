@@ -10,7 +10,7 @@ function Cards(props) {
               <h1>Fish</h1>
           </div>
        </div>
-        <div>
+        <div className='button'>
           <Link className='fish' to='/fish_details' activeclassname='activeLink'>Checkout Fish</Link>
         </div>
       </div>
