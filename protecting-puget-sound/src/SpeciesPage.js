@@ -27,6 +27,9 @@ function SpeciesPage() {
         <Cards/>
         <Cards/>
         </div>
+        <footer>
+
+        </footer>
       </div>
     )
   }

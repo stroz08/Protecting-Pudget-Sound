@@ -53,11 +53,9 @@ code {
 }
 
 .card {
-  margin-top: 40px;
   overflow: hidden;
   box-shadow:0 2px 20px black;
   border-bottom: 2rem;
-  border-top: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -79,26 +77,17 @@ code {
   text-align: center;
 }
 
+
 .card_button{
   display: flex;
   align-items: center;
-  margin-bottom: 1rem;
-  text-align: center;
-}
-
-.button {
-  padding-bottom: 50px;
-  padding-top: 10px;
-  text-align: center;
-}
-
-.fish{
   border: 3px solid green;
   padding: 1rem;
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
   font-size: 1rem;
   margin: 1rem;
+  border: 2px solid black;
   border-radius: 2rem;
 }
 
@@ -111,12 +100,4 @@ code {
   text-align: center;
   padding: 20px;
   margin-bottom: 20px;
-  border-radius: 2rem;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-
-.fish {
-  color: green;
 }
