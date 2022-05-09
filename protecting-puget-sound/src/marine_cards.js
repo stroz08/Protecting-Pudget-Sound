@@ -11,7 +11,7 @@ function Cards(props) {
         </div>
         </div>
         <div className='button'>
-        <Link className='fish' to='./Marine_Details' activeclassname='activeLink'>Checkout Marine Area</Link>
+        <Link className='fish' to='/Marine_Details' activeclassname='activeLink'>Marine Area Detail</Link>
       </div>
     </div>
 
