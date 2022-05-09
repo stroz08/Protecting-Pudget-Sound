@@ -1,11 +1,36 @@
 import React from 'react';
+import {Cards} from './cards.js'
 
 function SpeciesPage() {
     return (
-        <div id='navbar'>
+      <div>
+      <header>
 
-        </div>  
-    );
-}
 
-export { SpeciesPage };
+      </header>
+        <div className='card_container'>
+        <Cards/>
+        <Cards/>
+        <Cards/>
+        <Cards/>
+        <Cards/>
+
+        <Cards/>
+        <Cards/>
+        <Cards/>
+        <Cards/>
+        <Cards/>
+
+        <Cards/>
+        <Cards/>
+        <Cards/>
+        <Cards/>
+        <Cards/>
+        </div>
+        <footer>
+
+        </footer>
+      </div>
+    )
+  }
+export { SpeciesPage }
