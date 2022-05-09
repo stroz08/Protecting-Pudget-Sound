@@ -10,8 +10,8 @@ function App() {
     <div className="page-container">
       <NavBar/>
       <Routes>
-          <Route path='/marine_areas' element={<MarineAreasPage/>}></Route>
-          <Route path='/marine_details' element={<Marine_Details/>}></Route>
+         <Route path='/marine_areas' element={<MarineAreasPage/>}></Route>
+         <Route path='/marine_details' element={<Marine_Details/>}></Route>
       </Routes>
     </div>
   );
