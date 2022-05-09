@@ -9,11 +9,12 @@ function NavBar() {
             <div className='link-container'>
                 <NavLink className='link' to='/map' activeclassname='activeLink'>Map</NavLink>
                 <NavLink className='link' to='/species' activeclassname='activeLink'>Species</NavLink>
+                <NavLink className='link' to='/marine' activeclassname='activeLink'>Marine Areas</NavLink>
                 <NavLink className='link' to='/getinvolved' activeclassname='activeLink'>Get Involved</NavLink>
-                <NavLink className='link' to='/about' activeclassname='activeLink'>About Us</NavLink>
+                <NavLink className='link' to='/About_Us' activeclassname='activeLink'>About Us</NavLink>
                 <NavLink className='link' to='/marine_areas' activeclassname='activeLink'>Marine Areas</NavLink>
             </div>
-        </div>  
+        </div>
     );
 }
 
