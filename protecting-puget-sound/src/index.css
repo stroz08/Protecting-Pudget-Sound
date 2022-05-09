@@ -109,17 +109,13 @@ code {
 }
 
 .team_member {
+  margin-top: 40px;
   overflow: hidden;
   border-bottom: 2rem;
+  border-top: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  text-align: center;
-  padding: 20px;
-  margin-bottom: 20px;
-  border-radius: 2rem;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 
