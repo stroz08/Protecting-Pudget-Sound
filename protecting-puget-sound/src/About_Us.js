@@ -6,10 +6,11 @@ function About_Page(props) {
       <header>
       <h1 class = "top">About Us</h1>
       <img class = 'adjust' logo src={require('./logo.jpg')}/>
+
     </header>
     <section class = 'area'>
-      <h2 class = 'second'>Our Mission</h2>
-      <p class = "about">Promote sustainable fishing practices in the Puget Sound area.</p>
+      <h2 class = 'medium'>Our Mission</h2>
+      <p class = "mission">Promote sustainable fishing practices in the Puget Sound area.</p>
       <h2 class = 'second'>Problem Framed</h2>
       <p class = 'about'>Puget Sound marine populations have long been in decline or at best hovering at dangerous levels.
          One of the factors that adversely affects these fish/crustacean populations is the overfishing of
