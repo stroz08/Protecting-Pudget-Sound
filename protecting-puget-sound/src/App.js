@@ -10,6 +10,9 @@ import { About_Page } from './About_Us'
 import {MarineAreasPage} from './marine_areas.js';
 import { Marine_Details } from './Marine_Details'
 
+
+
+
 function App() {
   return (
     <div className="page-container">
