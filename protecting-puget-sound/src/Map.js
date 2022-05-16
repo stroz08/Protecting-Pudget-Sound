@@ -1,5 +1,6 @@
 import React from 'react';
 import { MapContainer, TileLayer} from 'react-leaflet';
+import { database } from './Firebase.js'
 
 function RenderMap() {
     return (

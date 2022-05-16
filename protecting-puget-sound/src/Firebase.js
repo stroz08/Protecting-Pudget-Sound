@@ -1,15 +1,18 @@
 import firebase from 'firebase/compat/app'
 import 'firebase/compat/auth'
+import { getDatabase } from "firebase/database";
 
 const app = firebase.initializeApp({
-    apiKey: "AIzaSyC64jKCQEN6kNN3Xx_I7XebAp20pebyoTs",
-    authDomain: "block-health-18735.firebaseapp.com",
-    projectId: "block-health-18735",
-    storageBucket: "block-health-18735.appspot.com",
-    messagingSenderId: "455480969643",
-    appId: "1:455480969643:web:8ad00685c62078aafeeaee",
-    measurementId: "G-VVHJWY8GP8"
+    apiKey: "AIzaSyD9vK6aD5af5yxOWmQbgMZ8GKNdms8BnME",
+    authDomain: "protecting-puget-sound-f0e82.firebaseapp.com",
+    databaseURL: "https://protecting-puget-sound-f0e82-default-rtdb.firebaseio.com",
+    projectId: "protecting-puget-sound-f0e82",
+    storageBucket: "protecting-puget-sound-f0e82.appspot.com",
+    messagingSenderId: "983125712576",
+    appId: "1:983125712576:web:814f85206c9e9f78a31725",
+    measurementId: "G-YE4N8S5BW6"
 })
   
 export const auth = app.auth()
+export const database = getDatabase(app);
 export default app
