@@ -5,7 +5,7 @@ function About_Page(props) {
     <div>
       <header>
       <h1 class = "top">About Us</h1>
-      <img class = "main-fish" src='' alt = "fish from ocean"/>
+      <img class = 'adjust' logo src={require('./logo.jpg')}/>
 
     </header>
     <section class = 'area'>
