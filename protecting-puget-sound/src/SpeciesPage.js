@@ -1,6 +1,14 @@
 import React from 'react';
 import {Cards} from './cards.js'
 
+import { getDatabase, ref } from 'firebase/database';
+
+// Get a reference to the database service
+const db = getDatabase();
+
+const fishRef = ref(db, "Fishes");
+console.log(fishRef)
+
 function SpeciesPage() {
     return (
       <div>
