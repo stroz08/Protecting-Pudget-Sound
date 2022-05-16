@@ -4,13 +4,23 @@ import { MapContainer, TileLayer} from 'react-leaflet';
 function RenderMap() {
     return (
         <div id='leaflet_container'>
+            <h1>Home</h1>
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">Select A Fish</button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+            </div>
+
             <MapContainer center={[47.7237, -122.4713]} zoom={12} scrollWheelZoom={true}>
                 <TileLayer
                     attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
                     url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                 />
             </MapContainer>
-        </div>  
+        </div>
     );
 }
 

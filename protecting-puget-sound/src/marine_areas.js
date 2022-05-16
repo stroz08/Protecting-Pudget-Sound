@@ -5,6 +5,8 @@ function MarineAreasPage () {
   return (
     <div>
     <header>
+      <h1>Marine Areas in Puget Sound</h1>
+      <p>Select a marine area below to learn more about it.</p>
 
     </header>
 
@@ -17,7 +19,7 @@ function MarineAreasPage () {
       </div>
 
       <footer>
-        
+
       </footer>
     </div>
 
