@@ -1,7 +1,6 @@
 import React from 'react';
 import {Cards} from './cards.js'
-import { database } from './Firebase.js'
-import { ref, get, child } from 'firebase/database'
+
 
 
 function SpeciesPage() {

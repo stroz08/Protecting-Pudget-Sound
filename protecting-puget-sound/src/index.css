@@ -137,13 +137,10 @@ code {
 }
 
 fish-pic {
-
+  display: table;
+  margin: 0 auto;
 }
 
-.main-fish {
-  margin-right: 50%;
-  margin-left: 40%;
-}
 
 
 .team_member {
