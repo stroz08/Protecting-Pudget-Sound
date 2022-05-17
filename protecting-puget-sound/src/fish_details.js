@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { useLocation } from 'react-router-dom'
 import {database} from './Firebase.js'
 import {ref, get, child} from 'firebase/database'
+import {Link} from 'react-router-dom'
 
 
 function Fish_Details() {
@@ -26,6 +27,7 @@ function Fish_Details() {
 
   return (
       <div className='format'>
+        <Link to='/species' activeclassname='activeLink'> <i class="arrow left"></i> </Link>
         <h1 class = "top">{name}</h1>
         <img class = "main-fish" src={state && state.img}/>
       <section>

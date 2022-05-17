@@ -259,6 +259,19 @@ li {
   font-size: 2rem;
 }
 
+.arrow {
+  border: solid #072d20;
+  border-width: 0 6px 6px 0;
+  display: inline-block;
+  padding: 8px;
+  margin-top: 2rem;
+  margin-left: 1.5rem;
+}
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
 .explain {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
