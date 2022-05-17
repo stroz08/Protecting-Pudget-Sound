@@ -1,6 +1,10 @@
 import React from 'react'
+import { useLocation } from 'react-router-dom'
 
-function Fish_Details(props) {
+function Fish_Details() {
+  const location = useLocation()
+  const {name} = location.state
+  console.log(name)
   return (
       <div className='format'>
         <h1 class = "top">Species Name</h1>
