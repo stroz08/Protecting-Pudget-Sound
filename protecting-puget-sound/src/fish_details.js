@@ -9,7 +9,7 @@ function Fish_Details() {
       <div className='format'>
         <h1 class = "top">Species Name</h1>
         <h2 class = "danger">Species Endangerment Level: </h2>
-        <img class = "main-fish" src='https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Salmo_salar.jpg/330px-Salmo_salar.jpg'/>
+        <img class = "fish-pic" src='https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Salmo_salar.jpg/330px-Salmo_salar.jpg'/>
       <section class = "fish-info">
         <h2>Main Facts</h2>
         <ul>
