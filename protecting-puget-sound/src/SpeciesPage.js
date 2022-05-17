@@ -2,7 +2,6 @@ import React from 'react';
 import {Cards} from './cards.js'
 
 
-
 function SpeciesPage() {
 
     return (
@@ -31,7 +30,6 @@ function SpeciesPage() {
           img = "https://wildsalmoncenter.org/wp-content/uploads/2020/02/kspencer_coho.jpg"
           name = "Coho Salmon"
         />
-
         <Cards
           img = "https://media.fisheries.noaa.gov/styles/original/s3/dam-migration/lingcod.png?itok=YjRaKU-q"
           name = "Lingcod"
