@@ -26,13 +26,19 @@ function Marine_Details(props) { //Does this need to take in props?
 
     return (
         <div className='format'>
-            <h1>{name}</h1>
-        <section class = "fish-info">
-            <img src={state && state.img} class='card_img'/>
-            <h2>Puget Sound Area: {state && state.area} </h2>
-            <p>About the area: {state && state.info}</p>
-            <h2>Fishing Rules: {state && state.fish}</h2>
+            <h1 class = "top">{name}</h1>
+            <img class = "main-fish" src={state && state.img} />
+        <section>
+            <h2 className="top">Puget Sound Area: </h2>
+            <ul>{state && state.area} </ul>
+            <h1 className='fish-des'>About the area: </h1>
+            <li className='descr'>{state && state.info}</li>
+            <h1 className='fish-des'>Fishing Rules: </h1>
+            <li className='descr'>{state && state.fish}</li>
         </section>
+        <footer>
+
+        </footer>
         </div>
 
     )

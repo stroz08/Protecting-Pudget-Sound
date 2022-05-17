@@ -27,19 +27,22 @@ function Fish_Details() {
   return (
       <div className='format'>
         <h1 class = "top">{name}</h1>
-        <h2 class = "danger">Species Endangerment Level: </h2>
         <img class = "main-fish" src={state && state.img}/>
-      <section class = "fish-info">
-        <h2>Main Facts</h2>
+      <section>
+        <h2 class="top">Main Facts</h2>
         <ul>
-          <li>Located in Marine Areas: </li>
-          <li>Lifespan: {state && state.life}</li>
-          <li>Average Length: {state && state.length}</li>
-          <li>Average weight: {state && state.weight}</li>
+          <li>Endgerment Level:  {state && state.danger} </li>
+          <li>Average Length:  {state && state.length}</li>
+          <li>Average weight:  {state && state.weight}</li>
+          <li>Lifespan:  {state && state.life}</li>
         </ul>
-        <h2>Fish Description</h2>
-        <p>Fish Detail here</p>
+        <h2 className='fish-des'>Fish Description: </h2>
+        <li className='descr'>{name} Locations:  {state && state.range}</li>
+        <li className='descr'>Fish Description: {state && state.descr}</li>
+        <p className='memo'>**Fish endangerment is ranked on a scale from 1-3, 1 being not endangerment and 3 being can not fish**</p>
         </section>
+        <footer>
+        </footer>
       </div>
   )
 

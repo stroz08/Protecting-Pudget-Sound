@@ -8,7 +8,7 @@ function SpeciesPage() {
     return (
       <div>
       <header>
-        <h1 class = 'top'>Species in Puget Sound</h1>
+        <h1 class = 'top-specie'>Species in Puget Sound</h1>
         <p class = 'explain'>Here are the most common fish found in Puget Sound. Click on the fish to learn more about the specific specie. </p>
       </header>
         <div className='card_container'>
