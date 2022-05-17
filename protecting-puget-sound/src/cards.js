@@ -12,7 +12,7 @@ function Cards(props) {
           </div>
        </div>
         <div className='button'>
-          <Link className='fish' to= '/fish_details'state = {{name:props.name}} activeclassname='activeLink'>Checkout Fish</Link>
+          <Link className='fish' to= '/fish_details' state = {{name:props.name}} activeclassname='activeLink'>Checkout Fish</Link>
         </div>
       </div>
   )

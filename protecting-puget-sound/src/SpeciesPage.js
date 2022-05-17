@@ -19,12 +19,11 @@ function SpeciesPage() {
         />
         <Cards
           img = "https://media.fisheries.noaa.gov/styles/original/s3/dam-migration/640x427-chinook-salmon.png?itok=s7wokwso"
-          name = "Chinook salmon"
+          name = "Chinook Salmon"
         />
         <Cards/>
         <Cards/>
         <Cards/>
-
         <Cards/>
         <Cards/>
         <Cards/>
