@@ -16,14 +16,14 @@ function RenderMap() {
                 [48.284029, -123.248456],
                 [48.293881, -122.992340],
                 [48.321268, -122.843134],
-                [48.402644, -122.644035],  
+                [48.402644, -122.644035],
                 [48.403622, -122.421516],
                 [49.001946, -122.421516]];
 
 
     return (
         <div id='leaflet_container'>
-            <h1 class = 'top'>Map of Puget Sound</h1>
+            <h1 class = 'top-specie'>Map of Puget Sound</h1>
             <div class="dropdown">
             <button onclick="myFunction()" class="dropbtn">Select A Fish &#9660;</button>
             <div id="myDropdown" class="dropdown-content">

@@ -6,7 +6,7 @@ function MarineAreasPage () {
   return (
     <div>
     <header>
-      <h1 class = 'top'>Marine Areas in Puget Sound</h1>
+      <h1 class = 'top-specie'>Marine Areas in Puget Sound</h1>
       <p class = 'explain'>Select a marine area below to learn more about it.</p>
 
     </header>
@@ -28,7 +28,7 @@ function MarineAreasPage () {
           img = "https://www.eregulations.com/assets/images/books/wafw/21wafw/Marine_-_Area13.jpg"
           name = "Marine Area 13"/>
         <Cards
-          img = "https://www.eregulations.com/assets/images/books/wafw/21wafw/Marine_-_Area_4_close_up.jpg"
+          img = "https://www.eregulations.com/assets/images/books/wafw/21wafw/27.jpg"
           name = "Marine Area 5"
         />
 
@@ -51,10 +51,6 @@ function MarineAreasPage () {
         <Cards
           img = "https://s.www.wikirecreation.com/locations/image/5/4/4/e/544e31fa32650be4115cf717def6e018.jpg"
           name = "Marine Area 9"
-        />
-        <Cards
-          img = "https://s.www.wikirecreation.com/locations/image/5/4/4/e/544e31fa32650be4115cf717def6e018.jpg"
-          name = "Pacific Sand Lance"
         />
 
 
