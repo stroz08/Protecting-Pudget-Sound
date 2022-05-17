@@ -10,7 +10,7 @@ function SpeciesPage() {
       <div>
       <header>
         <h1 class = 'top'>Species in Puget Sound</h1>
-        <p class = 'explain'>Here are the most common fish found in Puget Sound. Click on the checkout specie button to learn more about the specific specie. </p>
+        <p class = 'explain'>Here are the most common fish found in Puget Sound. Click on the fish to learn more about the specific specie. </p>
       </header>
         <div className='card_container'>
         <Cards
@@ -64,7 +64,7 @@ function SpeciesPage() {
         />
         <Cards
           img = "https://media.fisheries.noaa.gov/styles/original/s3/dam-migration/640x427-sockeye-salmon.png?itok=v07l1FzV"
-          name = "Sockeye salmon"
+          name = "Sockeye Salmon"
         />
         <Cards
           img = "https://media.fisheries.noaa.gov/styles/original/s3/dam-migration/640x427-steelhead-trout.png?itok=LLXZDCqN"
