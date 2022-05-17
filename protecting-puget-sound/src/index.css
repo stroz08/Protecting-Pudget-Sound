@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #5AB3D1;
+  background-color: #D7D7D7;
 }
 
 code {
@@ -30,6 +30,8 @@ code {
   color: white;
   text-align: center;
   text-decoration: none;
+  -webkit-text-stroke-width: .5px;
+  -webkit-text-stroke-color: black;
 }
 
 #navbar .link-container {
@@ -44,6 +46,8 @@ code {
   color: white;
   font-family: 'Helvetica';
   font-weight: bold;
+  -webkit-text-stroke-width: .5px;
+  -webkit-text-stroke-color: black;
 }
 
 .leaflet-container {
@@ -87,8 +91,9 @@ code {
 }
 
 .card_title{
-  margin-bottom: .5rem;
+  margin-bottom: .75rem;
   text-align: center;
+  font-size: 14px;
 }
 
 .card_button{
@@ -96,11 +101,12 @@ code {
   align-items: center;
   margin-bottom: 1rem;
   text-align: center;
+  margin-top: 1rem;
 }
 
 .button {
   padding-bottom: 50px;
-  padding-top: 10px;
+  padding-top: 20px;
   text-align: center;
 }
 
@@ -118,11 +124,15 @@ code {
 .danger {
   text-align: center;
   color: white;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
 }
 
 .fish-info {
   margin-left: 40rem;
   color: white;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
 }
 
 .main-fish {
@@ -139,9 +149,11 @@ code {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  color: white;
+  color: grey;
   font-weight: bold;
   text-align: center;
+  -webkit-text-stroke-width: .5px;
+  -webkit-text-stroke-color: black;
 }
 
 .mission {
@@ -156,15 +168,18 @@ code {
 .area {
   margin-top: 2rem;
   margin: 2rem;
-  color: white;
+  color: rgb(46, 137, 111);
   font-weight: bold;
+  -webkit-text-stroke-width: .25px;
+  -webkit-text-stroke-color: black;
 }
 
 .top {
   font-size: 3rem;
   text-align: center;
-  color: white;
-  text-decoration: underline;
+  color: rgb(46, 137, 111);
+  -webkit-text-stroke-width: .5px;
+  -webkit-text-stroke-color: black;
 }
 
 .medium {
@@ -172,14 +187,19 @@ code {
   text-align: center;
   margin-bottom: 1rem;
   color: white;
-  text-decoration: underline;
+  -webkit-text-stroke-width: .5px;
+  -webkit-text-stroke-color: black;
 }
 
 .mission {
   font-size: 25px;
 }
 .second {
-  text-decoration: underline;
+  color: white;
+  -webkit-text-stroke-width: .5px;
+  -webkit-text-stroke-color: black;
+  font-size: 2rem;
+  text-decoration:dotted;
 
 }
 
