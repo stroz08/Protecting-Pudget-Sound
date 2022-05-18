@@ -1,5 +1,6 @@
 import React from 'react';
 import { MapContainer, TileLayer, Polygon, Popup, SVGOverlay} from 'react-leaflet';
+import { Link } from 'react-router-dom'
 
 function RenderMap() {
 
@@ -100,8 +101,8 @@ function RenderMap() {
 
     return (
         <div id='leaflet_container'>
-            <h1 class = 'top'>Marine Area Map of the Puget Sound</h1>
-            <h3 class = 'descr'>Click on a marine area to learn more</h3>
+            <h1 className = 'top'>Marine Area Map of the Puget Sound</h1>
+            <h3 className = 'descr'>Click on a marine area to learn more</h3>
             <MapContainer center={[47.7237, -122.4713]} zoom={8} zoomControl={false} scrollWheelZoom={true} minZoom={8}>
                 <TileLayer
                     attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
@@ -114,7 +115,8 @@ function RenderMap() {
                         </text>
                     </SVGOverlay>
                     <Popup>
-                        Marine Area 5
+                        <p>Marine Area 5</p>
+                        <Link to= '/Marine_Details' state = {{name:"Marine Area 5"}} activeclassname='activeLink'>Learn More</Link>
                     </Popup>
                 </Polygon>
                 <Polygon color="red" positions={Area6}>
@@ -124,7 +126,8 @@ function RenderMap() {
                         </text>
                     </SVGOverlay>
                     <Popup>
-                        Marine Area 6
+                        <p>Marine Area 6</p>
+                        <Link to= '/Marine_Details' state = {{name:"Marine Area 6"}} activeclassname='activeLink'>Learn More</Link>
                     </Popup>
                 </Polygon>
                 <Polygon color="blue" positions={Area7}>
@@ -134,7 +137,8 @@ function RenderMap() {
                         </text>
                     </SVGOverlay>
                     <Popup>
-                        Marine Area 7
+                        <p>Marine Area 7</p>
+                        <Link to= '/Marine_Details' state = {{name:"Marine Area 7"}} activeclassname='activeLink'>Learn More</Link>
                     </Popup>
                 </Polygon>
                 <Polygon color="purple" positions={Area8}>
@@ -144,7 +148,9 @@ function RenderMap() {
                         </text>
                     </SVGOverlay>
                     <Popup>
-                        Marine Area 8
+                        <p>Marine Area 8</p>
+                        <p><Link to= '/Marine_Details' state = {{name:"Marine Area 8-1"}} activeclassname='activeLink'>Learn More about 8-1</Link></p>
+                        <Link to= '/Marine_Details' state = {{name:"Marine Area 8-2"}} activeclassname='activeLink'>Learn More about 8-2</Link>
                     </Popup>
                 </Polygon>
                 <Polygon color="magenta" positions={Area9}>
@@ -154,7 +160,8 @@ function RenderMap() {
                         </text>
                     </SVGOverlay>
                     <Popup>
-                        Marine Area 9
+                        <p>Marine Area 9</p>
+                        <Link to= '/Marine_Details' state = {{name:"Marine Area 9"}} activeclassname='activeLink'>Learn More</Link>
                     </Popup> 
                 </Polygon>
                 <Polygon color="orange" positions={Area10}>
@@ -164,7 +171,8 @@ function RenderMap() {
                         </text>
                     </SVGOverlay>
                     <Popup>
-                        Marine Area 10
+                        <p>Marine Area 10</p>
+                        <Link to= '/Marine_Details' state = {{name:"Marine Area 10"}} activeclassname='activeLink'>Learn More</Link>
                     </Popup> 
                 </Polygon>
                 <Polygon color="green" positions={Area11}>
@@ -174,7 +182,8 @@ function RenderMap() {
                         </text>
                     </SVGOverlay>
                     <Popup>
-                        Marine Area 11
+                        <p>Marine Area 11</p>
+                        <Link to= '/Marine_Details' state = {{name:"Marine Area 11"}} activeclassname='activeLink'>Learn More</Link>
                     </Popup>  
                 </Polygon>
                 <Polygon color="navy" positions={Area12}>
@@ -184,7 +193,8 @@ function RenderMap() {
                         </text>
                     </SVGOverlay>
                     <Popup>
-                        Marine Area 12
+                        <p>Marine Area 12</p>
+                        <Link to= '/Marine_Details' state = {{name:"Marine Area 12"}} activeclassname='activeLink'>Learn More</Link>
                     </Popup>  
                 </Polygon>
                 <Polygon color="maroon" positions={Area13}>
@@ -194,7 +204,8 @@ function RenderMap() {
                         </text>
                     </SVGOverlay>
                     <Popup>
-                        Marine Area 13
+                        <p>Marine Area 13</p>
+                        <Link to= '/Marine_Details' state = {{name:"Marine Area 13"}} activeclassname='activeLink'>Learn More</Link>
                     </Popup>  
                 </Polygon>
             </MapContainer>
