@@ -50,6 +50,10 @@ function SpeciesPage() {
           img = "https://media.fisheries.noaa.gov/styles/original/s3/dam-migration/640x427-pink-salmon.png?itok=WBIjRwIO"
           name = "Pink Salmon"
         />
+                <Cards
+          img = "https://media.fisheries.noaa.gov/styles/original/s3/dam-migration/640x427-steelhead-trout.png?itok=LLXZDCqN"
+          name = "Pacific Steelhead"
+        />
         <Cards
           img = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ91E_rzLATqX_DH-EYvPIYpDJNHzyAR8Ca1w&usqp=CAU"
           name = "Pacific Sand Lance"
@@ -62,10 +66,6 @@ function SpeciesPage() {
         <Cards
           img = "https://media.fisheries.noaa.gov/styles/original/s3/dam-migration/640x427-sockeye-salmon.png?itok=v07l1FzV"
           name = "Sockeye Salmon"
-        />
-        <Cards
-          img = "https://media.fisheries.noaa.gov/styles/original/s3/dam-migration/640x427-steelhead-trout.png?itok=LLXZDCqN"
-          name = "Pacific Steelhead"
         />
 
 
