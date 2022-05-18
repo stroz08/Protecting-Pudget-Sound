@@ -38,6 +38,13 @@ code {
   margin-left: auto;
 }
 
+.explore {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
 .link {
   margin-right: 3vw;
   text-decoration: none;
@@ -239,6 +246,49 @@ li {
   line-height: 1.8px;
 }
 
+.squares {
+  display: flex;
+  justify-content: center;
+}
+
+
+.icon1,
+.icon2 {
+  margin-top: 2rem;
+    width: 600px;
+    height: 400px;
+    background: greennpm ;
+    text-align: center;
+    background-color:  #008457;
+    color:white;
+    border-radius: 30px;
+
+}
+
+.icon2:hover{
+  transform: scale(1.1);
+}
+
+.icon1:hover{
+  transform: scale(1.1);
+}
+
+
+ .icon1 {
+        margin-right: 10%;
+        border-style: ridge;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+ .icon2 {
+        border-style: ridge;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        }
+
 .medium {
   font-size: 2rem;
   text-align: center;
@@ -246,6 +296,13 @@ li {
   color: rgb(46, 137, 111);
   -webkit-text-stroke-width: .5px;
   -webkit-text-stroke-color: black;
+}
+
+.links {
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  text-decoration: none;
 }
 
 .mission {
