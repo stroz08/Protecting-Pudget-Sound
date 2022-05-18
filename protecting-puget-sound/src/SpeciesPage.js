@@ -67,8 +67,6 @@ function SpeciesPage() {
           img = "https://media.fisheries.noaa.gov/styles/original/s3/dam-migration/640x427-sockeye-salmon.png?itok=v07l1FzV"
           name = "Sockeye Salmon"
         />
-
-
         </div>
         <footer>
 

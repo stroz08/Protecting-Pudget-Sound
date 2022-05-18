@@ -52,9 +52,9 @@ code {
 
 .leaflet-container {
   margin: auto;
-  margin-top: 5%;
-  width: 65vw;
-  height: 50vw;
+  margin-top: 2%;
+  width: 70vw;
+  height: 40vw;
 }
 
 footer {
@@ -247,6 +247,14 @@ li {
   white-space: initial;
 }
 
+.descr {
+  font-size: 2rem;
+  text-align: center;
+  color: rgb(46, 137, 111);
+  -webkit-text-stroke-width: .3px;
+  -webkit-text-stroke-color: black;
+}
+
 .top {
   font-size: 2.5rem;
   text-align: center;
@@ -271,6 +279,7 @@ li {
   color: rgb(73, 72, 72);
   -webkit-text-stroke-color: black;
 }
+
 .second {
   color: rgb(46, 137, 111);
   font-size: 2rem;
