@@ -2,12 +2,13 @@
 
 #### General 
 
-1. Every page in our website will have a fixed navigation bar at the top showing our logo/ site title on the left and links to the other pages on the right: Map, Explore, Get Involved (stretch goal), About Us. 
+1. Every page in our website will have a fixed navigation bar at the top showing our logo/ site title on the left and links to the other pages on the right: Map, Species, Marine Areas, Get Involved (stretch goal), About Us. -Complete PR #39 by stroz08 was merged 20 days ago
 3. Clicking on the Map button on the navigation bar directs the user to the Map page.
-4. Clicking on the Explore button on the navigation bar directs the user to the Explore page.
-5. Clicking on the Get Involved button on the navigation bar directs the user to the Get Involved page.
-6. Clicking on the About Us button on the navigation bar directs the user to the About Us page.
-7. Under the map on the home page a disclaimer will be displayed 
+4. Clicking on the Species button on the navigation bar directs the user to the Species page. Complete PR #43 by abequette99 was merged 
+5. Clicking on the Marine Areas button on the navigation bar directs the user to the Marine Areas. 
+6. Clicking on the Get Involved button on the navigation bar directs the user to the Get Involved page.
+7. Clicking on the About Us button on the navigation bar directs the user to the About Us page.
+8. Under the map on the home page a disclaimer will be displayed 
   “We are not responsible for any consequences due to out-of-season fishing. Please refer to Washington’s Marine Area regulations before fishing.”
 
 
@@ -41,16 +42,6 @@
 2. Clicking on the “Learn More” button for any specific marine area will direct the user to that specific marine areas page (2.1.1)
 3. Directions for how to use the map will be displayed below the map.
 
-#### 2: Explore Page
-
-1. The page has two cards for ‘Marine Areas’ and ‘Species’ next to each other that take up most of the screen.
-2. Each card displays an image related to the respective category.
-3. When the user hovers over the ‘Marine Areas’ card, a slightly transparent overlay will appear over the image and the title will be shown.
-    1. When hovering over the card, the cursor arrow will change to a hand indicating that the card is clickable.
-4. When the user clicks on the ‘Marine Areas’ card, they will be redirected to the Marine Area page. (2.1)
-5. When the user hovers over the ‘Species’ card, a slightly transparent overlay will appear over the image and the title will be shown. 
-    1. When hovering over the card, the cursor arrow will change to a hand indicating that the card is clickable.
-6. When the user clicks on the ‘Species’ card, they will be redirected to the Species page. (2.2) 
 
 #### 2.1.1: Marine Area Info Page
 
@@ -63,10 +54,10 @@
 
 #### 2.2: Species Page
 
-1. When page loads, the page will display common fish species found in the Puget Sound.
-2. When page loads species page each species will be listed in alphabetical order.
+1. When page loads, the page will display common fish species found in the Puget Sound.  complete -pull request #53 
+2. When page loads species page each species will be listed in alphabetical order. complete -pull request #53 
 3. Each species will have its own card-like display, no two species will share a card.
-4. Each card is clickable.
+4. Each card is clickable. complete -pull request #53 
 5. When a species card is clicked the user will be directed to the respective species page. 
 6. Cards are sorted alphabetically by default.
 7. There will be a filter button to filter what species are displayed on the page. 
@@ -142,10 +133,10 @@
 
 #### 4: About Page
 
-1. This page will have a title in the top left corner below the navigation bar saying ‘About Us’.
-2. Below the title is a center-aligned subtitle showing ‘Our Mission’.
-3. A block of text with our mission statement will be displayed.
-4. Below the block of text another center-aligned subtitle saying ‘Why?’ will be shown.
-5. A block of text framing our problem and its importance will be displayed. 
-6. The user will be able to scroll through the page to view all the information. 
-7. Personal information about the team, such as name, photo, role, and LinkedIn may be added at the bottom of the page.
+1. This page will have a title in the top center below the navigation bar saying ‘About Us’. -Complete #48 by abequette99 
+2. Below the title is a center-aligned subtitle showing ‘Our Mission’. -Complete #44 by abequette99
+3. A block of text with our mission statement will be displayed.  -Complete #44 by abequette99
+4. Below the block of text another center-aligned subtitle saying ‘Why?’ will be shown.  -Complete #44 by abequette99
+5. A block of text framing our problem and its importance will be displayed. -Complete #44 by abequette99
+6. The user will be able to scroll through the page to view all the information. -Complete #44 by abequette99
+7. Personal information about the team, such as name, photo, role, and LinkedIn may be added at the bottom of the page. -Complete #44 by abequette99
