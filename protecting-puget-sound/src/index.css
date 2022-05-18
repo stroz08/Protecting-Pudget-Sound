@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #D7D7D7;
+  background-color: whitesmoke;
 }
 
 code {
@@ -15,7 +15,7 @@ code {
 
 /* Navigation Bar */
 
-#navbar {
+#navbar, footer {
   display: flex;
   align-items: center;
   background: #008457;
@@ -57,6 +57,16 @@ code {
   height: 40vw;
 }
 
+footer {
+  margin-top: 3rem;
+  color: white;
+}
+
+.memo {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 12px;
+}
 /* Card boxes*/
 
 .card_container {
@@ -88,12 +98,13 @@ code {
     height: 12rem;
     width: 100%;
     object-fit:contain;
+    margin-top: 1rem;
 }
 
 .card_title{
   margin-bottom: .75rem;
   text-align: center;
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .card_button{
@@ -108,6 +119,7 @@ code {
   padding-bottom: 50px;
   padding-top: 20px;
   text-align: center;
+
 }
 
 .fish{
@@ -122,23 +134,49 @@ code {
 
 /*fish info page*/
 .danger {
-  text-align: center;
-  color: white;
-  -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: black;
+  text-align: left;
+  color:black;
+  margin-left: 1rem;
+  line-height: .5em;
 }
 
-.fish-info {
-  margin-left: 40rem;
-  color: white;
-  -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: black;
+
+ul {
+  color: black;
+  font-size: 25px;
+  display: table;
+  margin: 0 auto;
 }
+
 
 .main-fish {
-  margin-right: 50%;
-  margin-left: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: none;
+  height: 30rem;
+  width: 50rem;
+  padding: 10px;
+  border: 3px solid black;
+  background-color: white;
 }
+
+.main-map {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: none;
+  height: 30rem;
+  width: 50rem;
+  padding: 10px;
+  border: 3px solid black;
+  background-color: white;
+}
+
+.main-map:hover {
+  transform: scale(1.25);
+}
+
 
 
 .team_member {
@@ -163,15 +201,50 @@ code {
   color: green;
 }
 
+.top-specie {
+  text-align: center;
+  font-size: 2.75rem;
+  margin-top: 2rem;
+  color: rgb(46, 137, 111);
+  -webkit-text-stroke-width: .45px;
+  -webkit-text-stroke-color: black;
+}
+
+
 /* About Page*/
 
 .area {
   margin-top: 2rem;
   margin: 2rem;
-  color: rgb(46, 137, 111);
+  color: black;
   font-weight: bold;
   -webkit-text-stroke-width: .25px;
   -webkit-text-stroke-color: black;
+}
+.top-headers {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  margin-bottom: 4rem;
+}
+
+li {
+  color: black;
+  white-space: nowrap;
+  font-weight: 2px;
+}
+
+.fish-des {
+  margin-left: 2rem;
+  font-size: 2rem;
+}
+.descr {
+  margin-left: 2.1rem;
+  font-size: 1.25rem;
+  margin-top: 1rem;
+  margin-right: 1rem;
+  white-space: initial;
 }
 
 .descr {
@@ -183,59 +256,79 @@ code {
 }
 
 .top {
-  font-size: 3rem;
+  font-size: 2.5rem;
   text-align: center;
-  color: rgb(46, 137, 111);
-  -webkit-text-stroke-width: .5px;
-  -webkit-text-stroke-color: black;
+  margin-top: 4rem;
+  margin-left: 2rem;
+  margin-bottom: 3rem;
+  text-decoration: underline;
+  line-height: 1.8px;
 }
 
 .medium {
   font-size: 2rem;
   text-align: center;
   margin-bottom: 1rem;
-  color: white;
+  color: rgb(46, 137, 111);
   -webkit-text-stroke-width: .5px;
   -webkit-text-stroke-color: black;
 }
 
 .mission {
   font-size: 25px;
+  color: rgb(73, 72, 72);
+  -webkit-text-stroke-color: black;
 }
 
 .second {
-  color: white;
-  -webkit-text-stroke-width: .5px;
-  -webkit-text-stroke-color: black;
+  color: rgb(46, 137, 111);
   font-size: 2rem;
-  text-decoration:dotted;
+}
 
+.arrow {
+  border: solid #072d20;
+  border-width: 0 6px 6px 0;
+  display: inline-block;
+  padding: 8px;
+  margin-top: 2rem;
+  margin-left: 1.5rem;
+}
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
 }
 
 .explain {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 19px;
+  font-size: 22px;
   font-weight: bold;
-  color: white;
-
+  color: black;
 }
 
 .about {
     font-size: 1.20em;
+    color: rgb(73, 72, 72);
+    -webkit-text-stroke-color: black;
 }
 
 .logo {
   width: 60px;
   height: 60px;
+  border-radius: 100%;
+  border: .5px solid black;
   margin-left: 1rem;
 }
 
 .adjust {
-  margin-left: 40.2%;
-  margin-right: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
   width: 300px;
-  height: 300px
+  height: 300px;
+  border-radius: 100%;
+  border: .5px solid rgb(61, 61, 61);
 }
 
 /* Drop down */

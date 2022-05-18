@@ -1,7 +1,5 @@
 import React from 'react';
 import {Cards} from './cards.js'
-import { database } from './Firebase.js'
-import { ref, get, child } from 'firebase/database'
 
 
 function SpeciesPage() {
@@ -9,8 +7,8 @@ function SpeciesPage() {
     return (
       <div>
       <header>
-        <h1 class = 'top'>Species in Puget Sound</h1>
-        <p class = 'explain'>Here are the most common fish found in Puget Sound. Click on the checkout specie button to learn more about the specific specie. </p>
+        <h1 class = 'top-specie'>Species in Puget Sound</h1>
+        <p class = 'explain'>Here are the most common fish found in Puget Sound. Click on the fish to learn more about the specific specie. </p>
       </header>
         <div className='card_container'>
         <Cards
@@ -32,7 +30,6 @@ function SpeciesPage() {
           img = "https://wildsalmoncenter.org/wp-content/uploads/2020/02/kspencer_coho.jpg"
           name = "Coho Salmon"
         />
-
         <Cards
           img = "https://media.fisheries.noaa.gov/styles/original/s3/dam-migration/lingcod.png?itok=YjRaKU-q"
           name = "Lingcod"
@@ -53,6 +50,10 @@ function SpeciesPage() {
           img = "https://media.fisheries.noaa.gov/styles/original/s3/dam-migration/640x427-pink-salmon.png?itok=WBIjRwIO"
           name = "Pink Salmon"
         />
+                <Cards
+          img = "https://media.fisheries.noaa.gov/styles/original/s3/dam-migration/640x427-steelhead-trout.png?itok=LLXZDCqN"
+          name = "Pacific Steelhead"
+        />
         <Cards
           img = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ91E_rzLATqX_DH-EYvPIYpDJNHzyAR8Ca1w&usqp=CAU"
           name = "Pacific Sand Lance"
@@ -64,11 +65,7 @@ function SpeciesPage() {
         />
         <Cards
           img = "https://media.fisheries.noaa.gov/styles/original/s3/dam-migration/640x427-sockeye-salmon.png?itok=v07l1FzV"
-          name = "Sockeye salmon"
-        />
-        <Cards
-          img = "https://media.fisheries.noaa.gov/styles/original/s3/dam-migration/640x427-steelhead-trout.png?itok=LLXZDCqN"
-          name = "Pacific Steelhead"
+          name = "Sockeye Salmon"
         />
         </div>
         <footer>
