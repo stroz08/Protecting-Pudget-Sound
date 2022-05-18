@@ -70,8 +70,6 @@ function SpeciesPage() {
           img = "https://media.fisheries.noaa.gov/styles/original/s3/dam-migration/640x427-steelhead-trout.png?itok=LLXZDCqN"
           name = "Pacific Steelhead"
         />
-
-
         </div>
         <footer>
 
