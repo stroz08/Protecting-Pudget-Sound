@@ -10,6 +10,7 @@ import { About_Page } from './About_Us'
 import {MarineAreasPage} from './marine_areas.js';
 import { Marine_Details } from './Marine_Details'
 import { Explore } from './explore_page'
+import { Get_Involved } from './getinvolved'
 
 
 
@@ -25,6 +26,8 @@ function App() {
         <Route path='/marine_areas' element={<MarineAreasPage/>}></Route>
         <Route path='/marine_details' element={<Marine_Details/>}></Route>
         <Route path='/explore_page' element={<Explore/>}></Route>
+        <Route path='/getinvolved' element={<Get_Involved/>}></Route>
+
       </Routes>
     </div>
   );

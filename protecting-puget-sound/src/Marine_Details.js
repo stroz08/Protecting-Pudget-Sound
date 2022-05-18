@@ -29,7 +29,7 @@ function Marine_Details(props) { //Does this need to take in props?
         <div className='format'>
             <Link to='/marine_areas' activeclassname='activeLink'> <i class="arrow left"></i> </Link>
             <h1 class = "top">{name}</h1>
-            <img class = "main-fish" src={state && state.img} />
+            <img class = "main-map" src={state && state.img} />
         <section>
             <h2 className="top">Puget Sound Area: </h2>
             <ul>{state && state.area} </ul>

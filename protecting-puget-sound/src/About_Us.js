@@ -11,7 +11,7 @@ function About_Page(props) {
     <section class = 'area'>
       <h2 class = 'medium'>Our Mission</h2>
       <p class = "mission">Promote sustainable fishing practices in the Puget Sound area.</p>
-      <h2 class = 'second'>Problem Framed</h2>
+      <h2 class = 'second'>Why?</h2>
       <p class = 'about'>Puget Sound marine populations have long been in decline or at best hovering at dangerous levels.
          One of the factors that adversely affects these fish/crustacean populations is the overfishing of
          vulnerable species by recreational fishers.
