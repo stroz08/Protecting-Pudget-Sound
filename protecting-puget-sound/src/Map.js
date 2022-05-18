@@ -209,6 +209,7 @@ function RenderMap() {
                     </Popup>  
                 </Polygon>
             </MapContainer>
+            <footer/>
         </div>
     );
 }
