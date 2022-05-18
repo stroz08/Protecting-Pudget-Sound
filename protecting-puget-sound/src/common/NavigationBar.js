@@ -8,6 +8,8 @@ function NavBar() {
              <img className="logo" src={require('../logo.jpg')}/>
             <NavLink className='header' to='/'><h1> Protecting Puget Sound </h1></NavLink>
             <div className='link-container'>
+                <NavLink className='link' to='/' activeclassname='activeLink'>Home</NavLink>
+                <NavLink className='link' to='/explore_page' activeclassname='activeLink'>Explore</NavLink>
                 <NavLink className='link' to='/' activeclassname='activeLink'>Map</NavLink>
                 <NavLink className='link' to='/species' activeclassname='activeLink'>Species</NavLink>
                 <NavLink className='link' to='/marine_areas' activeclassname='activeLink'>Marine Areas</NavLink>
