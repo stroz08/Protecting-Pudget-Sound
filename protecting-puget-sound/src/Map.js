@@ -209,6 +209,7 @@ function RenderMap() {
                     </Popup>  
                 </Polygon>
             </MapContainer>
+            <h3 className='disclaimer'>We are not responsible for any consequences due to out-of-season fishing. Please refer to Washington's Marine Area regulations before fishing.</h3>
             <footer/>
         </div>
     );

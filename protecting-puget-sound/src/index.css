@@ -235,6 +235,10 @@ li {
   font-weight: 2px;
 }
 
+.disclaimer {
+  text-align: center;
+}
+
 .fish-des {
   margin-left: 2rem;
   font-size: 2rem;
