@@ -102,7 +102,7 @@ function RenderMap() {
     return (
         <div id='leaflet_container'>
             <h1 className = 'top'>Marine Area Map of the Puget Sound</h1>
-            <h3 className = 'descr'>Click on a marine area to learn more</h3>
+            <h3 className = 'description'>Click on a marine area to learn more</h3>
             <MapContainer center={[47.7237, -122.4713]} zoom={8} zoomControl={false} scrollWheelZoom={true} minZoom={8}>
                 <TileLayer
                     attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
