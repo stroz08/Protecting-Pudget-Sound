@@ -100,6 +100,10 @@ footer {
   transform: scale(1.1);
 }
 
+.click {
+  text-decoration: none;
+  color: black;
+}
 
 .card_img{
     height: 12rem;
