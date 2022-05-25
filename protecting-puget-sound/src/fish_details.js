@@ -40,7 +40,7 @@ function Fish_Details() {
         </ul>
         <h2 className='fish-des'>Fish Description: </h2>
         <li className='descr'>{name} Locations:  {state && state.range}</li>
-        <li className='descr'>Fish Description: {state && state.descr}</li>
+        <li className='descr'>Physcial Features: {state && state.descr}</li>
         <p className='memo'>**Fish endangerment is ranked on a scale from 1-3, 1 being not endangerment and 3 being can not fish**</p>
         </section>
         <footer>
