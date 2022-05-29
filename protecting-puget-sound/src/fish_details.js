@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { useLocation } from 'react-router-dom'
+import { useLocation, useNavigate } from 'react-router-dom'
 import {database} from './Firebase.js'
 import {ref, get, child} from 'firebase/database'
 import {Link} from 'react-router-dom'
@@ -8,6 +8,8 @@ import {Link} from 'react-router-dom'
 function Fish_Details() {
 
   const [state, setState] = useState(0);
+
+  const navigate = useNavigate()
 
   const location = useLocation()
   const {name} = location.state
@@ -27,7 +29,7 @@ function Fish_Details() {
 
   return (
       <div className='format'>
-        <Link to='/species' activeclassname='activeLink'> <i class="arrow left"></i> </Link>
+        <div class='back_arrow' onClick={()=>navigate(-1)}> <i class="arrow left"></i></div>
         <h1 class = "top">{name}</h1>
         <img class = "main-fish" src={state && state.img}/>
       <section>

@@ -1,14 +1,14 @@
 import React, { useState } from 'react'
-import { useLocation } from 'react-router-dom'
+import { useLocation, useNavigate } from 'react-router-dom'
 import {database} from './Firebase.js'
 import {ref, get, child} from 'firebase/database'
-import {Link} from 'react-router-dom'
 
 
 function Marine_Details(props) { //Does this need to take in props?
 
   const [state, setState] = useState(0);
 
+  const navigate = useNavigate()
   const location = useLocation()
   const {name} = location.state
   var dbRef = ref(database)
@@ -27,7 +27,7 @@ function Marine_Details(props) { //Does this need to take in props?
 
     return (
         <div className='format'>
-            <Link to='/marine_areas' activeclassname='activeLink'> <i class="arrow left"></i> </Link>
+            <div class='back_arrow' onClick={()=>navigate(-1)}> <i class="arrow left"></i></div>
             <h1 class = "top">{name}</h1>
             <img class = "main-map" src={state && state.img} />
         <section>
