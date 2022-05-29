@@ -411,6 +411,10 @@ li {
   width: 15rem;
 }
 
+.back_arrow {
+  cursor: pointer;
+}
+
 .show {display:block;}
 
 /* Dropdown button on hover & focus */
