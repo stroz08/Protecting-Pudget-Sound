@@ -27,7 +27,7 @@ function Marine_Details(props) { //Does this need to take in props?
 
     return (
         <div className='format'>
-            <div class='back_arrow' onClick={()=>navigate(-1)}> <i class="arrow left"></i></div>
+            <i onClick={() => navigate(-1)} class="arrow left"></i>
             <h1 class = "top">{name}</h1>
             <img class = "main-map" src={state && state.img} />
         <section>

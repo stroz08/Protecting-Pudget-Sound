@@ -29,7 +29,7 @@ function Fish_Details() {
 
   return (
       <div className='format'>
-        <div class='back_arrow' onClick={()=>navigate(-1)}> <i class="arrow left"></i></div>
+        <i pnClick={() => navigate(-1)} class="arrow left"></i>
         <h1 class = "top">{name}</h1>
         <img class = "main-fish" src={state && state.img}/>
       <section>
