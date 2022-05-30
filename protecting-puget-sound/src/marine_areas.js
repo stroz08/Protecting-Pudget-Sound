@@ -1,11 +1,13 @@
 import React from 'react';
 import {Cards} from './marine_cards.js'
+import {Link} from 'react-router-dom'
 
 
 function MarineAreasPage () {
   return (
     <div>
     <header>
+    <Link to='/explore_page' activeclassname='activeLink'> <i class="arrow left"></i> </Link>
       <h1 class = 'top-specie'>Marine Areas in Puget Sound</h1>
       <p class = 'explain'>Select a marine area below to learn more about it.</p>
 
