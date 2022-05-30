@@ -1,15 +1,15 @@
 import React from 'react';
 import {Cards} from './cards.js'
+import { Link } from 'react-router-dom'
 
 
 function SpeciesPage() {
 
     return (
       <div>
-      <header>
+      <Link to='/explore_page' activeclassname='activeLink'> <i class="arrow left"></i></Link>
         <h1 class = 'top-specie'>Species in Puget Sound</h1>
         <p class = 'explain'>Here are the most common fish found in Puget Sound. Click on the fish to learn more about the specific specie. </p>
-      </header>
         <div className='card_container'>
         <Cards
         img ="https://wdfw.wa.gov/sites/default/files/styles/half_width_slide/public/2019-03/cabezon_vicky_okimura.jpg?itok=MovFCfpT"
