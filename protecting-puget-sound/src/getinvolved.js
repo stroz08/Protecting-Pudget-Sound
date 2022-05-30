@@ -23,12 +23,7 @@ function Get_Involved(props) {
                 <li><a href= "https://www.earthcorps.org/field-initiatives/protect-puget-sound/">Protect Puget Sound</a></li>
             </ul>
       <footer>
-        <h2 class = 'area'>
-          Citations:
-        </h2>
-        <p>
-            https://stateofsalmon.wa.gov/
-        </p>
+
       </footer>
       </div>
       )
