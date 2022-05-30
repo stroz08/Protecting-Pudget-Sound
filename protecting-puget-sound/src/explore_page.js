@@ -22,9 +22,14 @@ function Explore() {
       </Link>
     </div>
 </div>
-  <footer>
-
-  </footer>
+<footer>
+        <h2 class = 'area'>
+         
+        </h2>
+        <p>
+            
+        </p>
+      </footer>
   </div>
   )
 
