@@ -447,3 +447,9 @@ a {
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {background-color: #ddd}
 
+/* Left binding bullet points on explore page */
+
+.alignBullets {
+  margin-left: 1rem;
+  font-size: 2rem;
+}
