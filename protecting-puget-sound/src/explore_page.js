@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom'
 function Explore() {
   return (
     <div >
-    <h1 className='top'>Explore Page</h1>
-  <h3 className='explain'>Learn more about species and marine areas by clicking on boxes below</h3>
+    <h1 className="top-specie">Explore Page</h1>
+  <h3 className='medium'>Learn more about species and marine areas by clicking on boxes below</h3>
   <div class = 'sides'>
     <div className="squares">
     <Link className='links' to='/species' activeclassname='activeLink'>
