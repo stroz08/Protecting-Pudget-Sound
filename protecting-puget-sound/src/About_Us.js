@@ -56,13 +56,21 @@ function About_Page(props) {
         </div>
     </section>
   </div>
-  <footer>
-    <h2 class = 'area'>
-      Citations:
-    </h2>
-    <p>
-
+  <div>
+    <h1>Citations:</h1>
+    <p className='cite'>How to use these eRegulations - washington fishing. eRegulations. (n.d.). Retrieved April 6, 2022, from https://www.eregulations.com/washington/fishing/how-to-use-these-e-regulations
     </p>
+    <p className='cite'>
+    Kuruc, M. (n.d.). What is overfishing? facts, effects and overfishing solutions. WWF. Retrieved April 6, 2022, from https://www.worldwildlife.org/threats/overfishing#:~:text=It%20can%20change%20the%20size,like%20sea%20turtles%20and%20corals.
+    </p>
+    <p className='cite'>
+    Mapes, L. (2019, February 26). Decline of salmon adds to the struggle of Puget Sound's Orcas. Saving Seafood. Retrieved April 6, 2022, from https://www.savingseafood.org/news/conservation-environment/decline-of-salmon-adds-to-the-struggle-of-puget-sounds-orcas/
+    </p>
+    <p className='cite'>
+    Puget Sound Partnership. (n.d.). Thriving species and food web. stateofthesoundwagov. Retrieved April 6, 2022, from https://stateofthesound.wa.gov/thriving-species-and-food-web/
+    </p>
+  </div>
+  <footer>
   </footer>
   </div>
   )
