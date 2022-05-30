@@ -159,6 +159,11 @@ ul {
   margin: 0 auto;
 }
 
+.cite {
+  font-size: 12px;
+  margin-left: 1rem;
+}
+
 .main-fish {
   display: block;
   margin-left: auto;
